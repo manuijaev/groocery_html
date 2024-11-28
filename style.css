@@ -211,3 +211,96 @@ color:maroon
     margin-top: 20px;
     letter-spacing: normal: 0.3px;
     font-weight: 600;
+}
+#client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    padding: 80px 0px;
+    margin: 10px 0px;
+
+}
+.client-heading h2{
+        color: rgb(63, 61, 61);
+        font-size: 1.56rem;
+        margin-top: 20px;
+        letter-spacing: normal: 0.3px;
+        font-weight: 600;
+}
+.client-box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    border-color: wheat;
+    padding: 80px 0px;
+    border-top: 1px solid wheat;
+    border-bottom: 1px  solid wheat;
+    background-color: antiquewhite;
+}
+.client-box{
+    background-color: antiquewhite;
+    padding: 30px 20px;
+    border: 1px solid antiquewhite;
+    box-shadow: 2px 2px 50px black;
+    border-radius: 0px 20px 0px 30px;
+}
+.client-box-1{
+    background-color: antiquewhite;
+    padding: 30px 20px;
+    border: 1px solid antiquewhite;
+    box-shadow: 2px 2px 50px black;
+    border-radius: 0px 20px 0px 30px;
+}
+.client-box-2{
+    background-color: antiquewhite;
+    padding: 30px 20px;
+    border: 1px solid antiquewhite;
+    box-shadow: 2px 2px 50px black;
+    border-radius: 0px 20px 0px 30px;
+}
+footer{
+    background-color: #1b1d1f;
+    padding: 50px 20px;
+    border-top: 5px solid antiquewhite;
+}
+.footer-logo a{
+    color: antiquewhite;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.footer-container{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.footer-social{
+    display: flex;
+    margin-top: 10px;
+}
+.footer-social a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    border: 1px solid #ffffff15;
+    font-size: 1.1rem;
+    margin: 0px 5px;
+}
+.about{
+    color: antiquewhite;
+}
+.contact{
+    color: bisque;
+}
+.email{
+    color: antiquewhite;
+}
