@@ -7,6 +7,7 @@ h1{
     font-style: italic;
     font-size: 3rem;
 }
+background-color: antiquewhite;
 }
 .navigation
 {
@@ -39,10 +40,19 @@ letter-spacing: 0.5px;
     font-style: italic;
 
 }
+.logo span{
+    color: green;
+    font-style: normal;
+}
 .menu li a:hover,
 menu.active{
     color: mediumaquamarine;
     transition: all ease 0.3s;
+}
+.search{
+    padding: auto;
+    background-color: antiquewhite;
+    color: black;
 }
 #search-banner{
     max-width: 1250px;
@@ -66,48 +76,50 @@ menu.active{
     border-radius: 50%;
 }
 .right-nav .like{
-background-color: aliceblue;
-color:maroon
+background-color: black;
+color:antiquewhite
 }
 .right-nav .cart{
-    background-color: aliceblue;
-    color: maroon;
+    background-color: black;
+    color: antiquewhite;
 }
 .right-nav .Login{
     width: auto;
     height: 40px;
     border-radius: 30px;
-    background-color: lavender;
+    background-color: black;
     border: none;
-    color: maroon;
+    color: antiquewhite;
     outline: none;
     }
     .right-nav .register{
         width: auto;
     height: 40px;
     border-radius: 30px;
-    background-color: lavender;
+    background-color: black;
     border: none;
-    color: maroon;
-    outline: darkred;
+    color: antiquewhite;
+    outline: bisque;
     }
 #category{
     display: flexbox;
     flex-direction: column;
     max-width: 1000px;
-    margin: 50px;
+    background-color: antiquewhite;
 }
 .category-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
+    background-color: antiquewhite;
 }
 .category-box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: antiquewhite;
 }
 .category-box img{
     height: 100px;
@@ -131,18 +143,24 @@ color:maroon
     display: flexbox;
     flex-direction: column;
     max-width: 1000px;
+    background-color: antiquewhite;
+}
+.products-heading{
+    background-color: antiquewhite;
 }
 .products-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
+    background-color: antiquewhite;
 }
 .products-box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: antiquewhite;
 }
 .products-box img{
     height: 100px;
@@ -165,18 +183,21 @@ color:maroon
     display: flexbox;
     flex-direction: column;
     max-width: 1000px;
+    background-color: antiquewhite;
 }
 .our-products-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
+    background-color: antiquewhite;
 }
 .our-products-box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: antiquewhite;
 }
 .our-products-box img{
     height: 100px;
@@ -198,12 +219,14 @@ color:maroon
 #our-blog{
     display: flex;
     flex-direction: column;
+    background-color: antiquewhite;
 }
 .our-blog-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
+    background-color: antiquewhite;
 }
 .our-blog-box h3{
     color: black;
